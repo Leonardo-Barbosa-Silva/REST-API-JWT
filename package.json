@@ -1,0 +1,31 @@
+{
+  "name": "rest-api-jwt",
+  "version": "1.0.0",
+  "description": "Projeto de API RESTful com autorização via JSON Web Token (conhecimento próprio)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/",
+    "dev": "nodemon ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonardo-Barbosa-Silva/REST-API-JWT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonardo-Barbosa-Silva/REST-API-JWT/issues"
+  },
+  "homepage": "https://github.com/Leonardo-Barbosa-Silva/REST-API-JWT#readme",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "mongoose": "6.3.4"
+  },
+  "devDependencies": {
+    "colors": "1.4.0",
+    "nodemon": "2.0.16"
+  }
+}
